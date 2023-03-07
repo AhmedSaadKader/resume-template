@@ -1,0 +1,62 @@
+.resumePage {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+
+.sideInfo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #404040;
+  color: white;
+}
+
+.imgDiv {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumePhoto {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.linksDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.other {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.educationDiv {
+}
+
+.educationTitle {
+  text-align: center;
+}
+
+.mainInfo {
+  height: 100%;
+  text-indent: 1rem;
+}
+
+.fullNameDiv {
+  background-color: #a2c4bf;
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.summary {
+  margin-left: 1rem;
+}
