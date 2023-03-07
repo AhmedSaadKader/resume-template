@@ -26,16 +26,19 @@ const Resume = () => {
             <div>Phone number</div>
           </div>
           <div className={styles.other}>
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillTwitterCircle />
-            <AiOutlineFacebook />
+            <AiFillLinkedin size={25} />
+            <AiFillGithub size={25} />
+            <AiFillTwitterCircle size={25} />
+            <AiOutlineFacebook size={25} />
           </div>
         </div>
+        <hr />
         <div className={styles.educationDiv}>
           <h2 className={styles.educationTitle}>Education</h2>
-          <li>School: Degree Date</li>
-          <li>School: Degree Date</li>
+          <div className={styles.educationList}>
+            <li>School: Degree Date xxxxxxxxxxxxxxxx</li>
+            <li>School: Degree Date</li>
+          </div>
         </div>
       </div>
       <div className={styles.mainInfo}>
@@ -50,7 +53,19 @@ const Resume = () => {
             necessitatibus quas iure error ratione. Fugiat, suscipit explicabo.
           </div>
         </div>
-        <h2>Skills</h2>
+        <hr />
+        <div>
+          <h2>Skills</h2>
+          <div className={styles.skillsGrid}>
+            <div>Skill 1</div>
+            <div>Skill 2</div>
+            <div>Skill 3</div>
+            <div>Skill 4</div>
+            <div>Skill 5</div>
+            <div>Skill 6</div>
+          </div>
+        </div>
+        <hr />
         <h2>Professional Experience</h2>
       </div>
     </div>

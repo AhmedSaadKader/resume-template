@@ -39,15 +39,25 @@
 }
 
 .educationDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .educationTitle {
-  text-align: center;
+  margin-left: 1rem;
+}
+
+.educationList {
+  margin-left: 1rem;
 }
 
 .mainInfo {
   height: 100%;
   text-indent: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .fullNameDiv {
@@ -59,4 +69,10 @@
 
 .summary {
   margin-left: 1rem;
+  text-indent: 0;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
