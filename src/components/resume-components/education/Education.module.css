@@ -1,0 +1,13 @@
+.educationDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.educationTitle {
+  margin-left: 1rem;
+}
+
+.educationList {
+  margin-left: 1rem;
+}

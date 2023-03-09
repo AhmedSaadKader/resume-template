@@ -13,66 +13,10 @@
   color: white;
 }
 
-.imgDiv {
-  height: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.resumePhoto {
-  width: 50%;
-  border-radius: 50%;
-}
-
-.linksDiv {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.other {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-}
-
-.educationDiv {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.educationTitle {
-  margin-left: 1rem;
-}
-
-.educationList {
-  margin-left: 1rem;
-}
-
 .mainInfo {
   height: 100%;
   text-indent: 1rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.fullNameDiv {
-  background-color: #a2c4bf;
-  height: 15%;
-  display: flex;
-  align-items: center;
-}
-
-.summary {
-  margin-left: 1rem;
-  text-indent: 0;
-}
-
-.skillsGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }

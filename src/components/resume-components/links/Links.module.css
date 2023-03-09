@@ -1,0 +1,12 @@
+.linksDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.otherLink {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}

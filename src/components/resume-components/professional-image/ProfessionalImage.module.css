@@ -1,0 +1,11 @@
+.imgDiv {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumePhoto {
+  width: 40%;
+  border-radius: 50%;
+}
