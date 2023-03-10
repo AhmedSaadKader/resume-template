@@ -33,7 +33,7 @@ const Links = () => {
           <div>Portfolio</div>
         </a>
       </div>
-      <div className={styles.otherLinks}>
+      {/* <div className={styles.otherLinks}>
         <a
           href="https://www.linkedin.com/in/ahmed-saad-60856892/"
           className={styles.individualLinks}
@@ -42,13 +42,28 @@ const Links = () => {
         </a>
         <a href="https://github.com/AhmedSaadKader" className={styles.individualLinks}>
           <AiFillGithub size={25} />
-        </a>
+        </a> */}
         {/* <a href='' className={styles.individualLinks}>
           <AiFillTwitterCircle size={25} />
         </a> */}
         {/* <a className={styles.individualLinks}>
           <AiOutlineFacebook size={25} />
         </a> */}
+      {/* </div> */}
+      <div className={styles.phone}>
+        <a
+          href="https://www.linkedin.com/in/ahmed-saad-60856892/"
+          className={styles.individualLinks}
+        >
+          <AiFillLinkedin size={25} />
+          <div>LinkedIn</div>
+        </a>
+      </div>
+      <div className={styles.phone}>
+        <a href="https://github.com/AhmedSaadKader" className={styles.individualLinks}>
+          <AiFillGithub size={25} />
+          <div>Github</div>
+        </a>
       </div>
     </div>
   );
