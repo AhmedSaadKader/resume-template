@@ -1,12 +1,18 @@
 .linksDiv {
   text-align: center;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .otherLink {
   display: flex;
   justify-content: center;
   gap: 5px;
+}
+
+.individualLinks {
+  color: inherit;
 }

@@ -1,0 +1,15 @@
+.expCompany {
+    font-weight: bold;
+}
+
+.experienceDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.projectOverview {
+    margin-left: 1rem;
+    text-indent: 0;
+}

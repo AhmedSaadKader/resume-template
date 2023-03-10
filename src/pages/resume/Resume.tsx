@@ -12,20 +12,21 @@ import {
 const Resume = () => {
   return (
     <div className={styles.resumePage}>
-      <div className={styles.sideInfo}>
-        <ProfessionalImage />
+      {/* <div className={styles.sideInfo}> */}
+      <div className={styles.mainInfo}>
+        {/* <ProfessionalImage /> */}
+        <FullName />
         <Links />
         <hr />
-        <Education />
-      </div>
-      <div className={styles.mainInfo}>
-        <FullName />
         <Summary />
         <hr />
         <Skills />
         <hr />
         <Experience />
+        <hr />
+        <Education />
       </div>
+      {/* </div> */}
     </div>
   );
 };

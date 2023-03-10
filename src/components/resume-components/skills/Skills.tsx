@@ -5,12 +5,12 @@ const Skills = () => {
     <div className={styles.skillsDiv}>
       <h2>Skills</h2>
       <div className={styles.skillsGrid}>
-        <div>Skill 1</div>
-        <div>Skill 2</div>
-        <div>Skill 3</div>
-        <div>Skill 4</div>
-        <div>Skill 5</div>
-        <div>Skill 6</div>
+        <div>React Front End</div>
+        <div>Node / Express Back End</div>
+        <div>Javascript</div>
+        <div>Typescript</div>
+        <div>Postgresql</div>
+        <div>MongoDB</div>
       </div>
     </div>
   );

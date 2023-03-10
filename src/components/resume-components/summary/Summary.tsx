@@ -5,9 +5,10 @@ const Summary = () => {
     <div>
       <h2>Professional Summary</h2>
       <div className={styles.summary}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius minus mollitia quod nobis
-        excepturi delectus exercitationem, fuga perspiciatis, aspernatur at atque sit necessitatibus
-        quas iure error ratione. Fugiat, suscipit explicabo.
+        Software development professional with experience in developing and designing web
+        applications using HTML, CSS, JavaScript, Typescript, Node.js, Postgresql, MongoDB and
+        React. Adept at developing and deploying complex backend systems, web services and
+        databases.
       </div>
     </div>
   );
