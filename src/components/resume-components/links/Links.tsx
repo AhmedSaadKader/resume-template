@@ -43,10 +43,10 @@ const Links = () => {
         <a href="https://github.com/AhmedSaadKader" className={styles.individualLinks}>
           <AiFillGithub size={25} />
         </a> */}
-        {/* <a href='' className={styles.individualLinks}>
+      {/* <a href='' className={styles.individualLinks}>
           <AiFillTwitterCircle size={25} />
         </a> */}
-        {/* <a className={styles.individualLinks}>
+      {/* <a className={styles.individualLinks}>
           <AiOutlineFacebook size={25} />
         </a> */}
       {/* </div> */}

@@ -16,3 +16,9 @@
 .individualLinks {
   color: inherit;
 }
+
+@media (max-width: 700px) {
+  .linksDiv {
+    display: grid;
+  }
+}
